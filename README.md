@@ -7,9 +7,10 @@ Language:	C/C++
 Auther:	ZhuXiong
 Version:	v.0.4(beta)
 Time:	2018.10.14		 13:52(Shanghai Time)
-Description:	1. Structral improvements.
-             2. Add save model. You can use it to save your random passwords in case of forgetting your passwords.
-             3. Eazier operation. Add more hints and go back options.
+Description:
+              1. Structral improvements.
+              2. Add save model. You can use it to save your random passwords in case of forgetting your passwords.
+              3. Eazier operation. Add more hints and go back options.
 
 News:
  - (red)NOW RELEASE v.0.4(beta) !!!
