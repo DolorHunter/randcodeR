@@ -1,0 +1,88 @@
+# depslib dependency file v1.0
+1543196822 source:c:\users\ultrabook\onedrive\hfut\codemonks\c project\randomr\randcoder.v.0.5\randcoder.v.0.5\main.cpp
+	<iostream>
+	<cstdlib>
+	"menu.h"
+	"lib.h"
+
+1543904542 c:\users\ultrabook\onedrive\hfut\codemonks\c project\randomr\randcoder.v.0.5\randcoder.v.0.5\menu.h
+	<iostream>
+	"creatCode.h"
+	"lib.h"
+
+1543903713 c:\users\ultrabook\onedrive\hfut\codemonks\c project\randomr\randcoder.v.0.5\randcoder.v.0.5\creatcode.h
+	<iostream>
+	"codeRules.h"
+	"lib.h"
+
+1543901404 c:\users\ultrabook\onedrive\hfut\codemonks\c project\randomr\randcoder.v.0.5\randcoder.v.0.5\coderules.h
+	<iostream>
+
+1543137719 c:\users\ultrabook\onedrive\hfut\codemonks\c project\randomr\randcoder.v.0.5\randcoder.v.0.5\safecodetolib.h
+	<iostream>
+
+1543901792 c:\users\ultrabook\onedrive\hfut\codemonks\c project\randomr\randcoder.v.0.5\randcoder.v.0.5\lib.h
+	<cstdlib>
+	<iostream>
+	"animation.h"
+
+1543146452 c:\users\ultrabook\onedrive\hfut\codemonks\c project\randomr\randcoder.v.0.5\randcoder.v.0.5\animation.h
+	<iostream>
+	<windows.h>
+
+1543196822 source:c:\users\ultrabook\desktop\randcoder.v.0.5\main.cpp
+	<iostream>
+	<cstdlib>
+	"menu.h"
+	"lib.h"
+
+1543323665 c:\users\ultrabook\desktop\randcoder.v.0.5\menu.h
+	<iostream>
+	"creatCode.h"
+	"lib.h"
+
+1543323455 c:\users\ultrabook\desktop\randcoder.v.0.5\creatcode.h
+	<iostream>
+	"codeRules.h"
+	"lib.h"
+
+1543141983 c:\users\ultrabook\desktop\randcoder.v.0.5\coderules.h
+	<iostream>
+
+1543323665 c:\users\ultrabook\desktop\randcoder.v.0.5\lib.h
+	<cstdlib>
+	<iostream>
+	"animation.h"
+
+1543146452 c:\users\ultrabook\desktop\randcoder.v.0.5\animation.h
+	<iostream>
+	<windows.h>
+
+1543196822 source:c:\users\ultrabook\onedrive\hfut\codemonks\c project\randomr\randcoder.v.0.5\randcoder.v.0.5(prototype)\main.cpp
+	<iostream>
+	<cstdlib>
+	"menu.h"
+	"lib.h"
+
+1543904542 c:\users\ultrabook\onedrive\hfut\codemonks\c project\randomr\randcoder.v.0.5\randcoder.v.0.5(prototype)\menu.h
+	<iostream>
+	"creatCode.h"
+	"lib.h"
+
+1543903713 c:\users\ultrabook\onedrive\hfut\codemonks\c project\randomr\randcoder.v.0.5\randcoder.v.0.5(prototype)\creatcode.h
+	<iostream>
+	"codeRules.h"
+	"lib.h"
+
+1543901404 c:\users\ultrabook\onedrive\hfut\codemonks\c project\randomr\randcoder.v.0.5\randcoder.v.0.5(prototype)\coderules.h
+	<iostream>
+
+1543901792 c:\users\ultrabook\onedrive\hfut\codemonks\c project\randomr\randcoder.v.0.5\randcoder.v.0.5(prototype)\lib.h
+	<cstdlib>
+	<iostream>
+	"animation.h"
+
+1543146452 c:\users\ultrabook\onedrive\hfut\codemonks\c project\randomr\randcoder.v.0.5\randcoder.v.0.5(prototype)\animation.h
+	<iostream>
+	<windows.h>
+
