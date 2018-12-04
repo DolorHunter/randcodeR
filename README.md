@@ -1,15 +1,16 @@
 # randcodeR（燃灯计划）
-A project which can make up total random code using different rules. And you can save them to .dat (or not) in case of forgetting your passwords.
+A project which can make up total random code using different rules. And you can save them to a .dat file in case of forgetting your passwords.
 
 - Project:	randcodeR（燃灯计划）
 - Language:	C/C++
 - Auther:	ZhuXiong
-- Version:	v.0.4(beta)
-- Time:	2018.10.14		 13:52(Shanghai Time)
+- Version:	v.0.5
+- Time:	2018.12.04		 14:24(Shanghai Time)
 - Description:
-              - 1. Structral improvements.
-              - 2. Add save model. You can use it to save your random passwords in case of forgetting your passwords.
-              - 3. Eazier operation. Add more hints and go back options.
+              - 1. Rewriting basic structure and renew the menus.
+              - 2. Redefine some constant in software, which makes the entire software more stable.
+              - 3. Some bugs are detected but it will do no harm to regular use. I am gonna fix it later.
+              
 - Index of the project: https://github.com/DolorHunter/randcodeR
 - Donation:             https://www.paypal.me/dolorhunter
 
@@ -29,6 +30,11 @@ ________________________________________________________________________________
 - 项目地址：https://github.com/DolorHunter/randcodeR
 - 捐助地址: https://www.paypal.me/dolorhunter
 
+版本号:v.0.5
+时间: 2018.12.04	14:24
+更新说明:        1. 重写了菜单结构, 让修改变得更加方便.
+              	2.重新定义了一些const常量, 让程序变得更稳定.
+	              3.发现了一些bug的触发条件,正在尝试修复.
 
 版本号: v.0.4(beta)  重大更新
 时间: 2018.10.14        13:52
