@@ -15,7 +15,7 @@ A project which can make up total random code using different rules. And you can
 - Donation:             https://www.paypal.me/dolorhunter
 
 News:
-
+ - NOW RELEASE V.0.5!! New version with new structure.
  - v.0.5 is nearly come to an end. I am test it and perfect it now. I think it can be release before the second week of December. I'm rushing the schedual!!
  - I'm Working on v.0.5 now. New vision is releasing slower than expected because of midterm. But I promise once I've done all the test, I will immediately start to code. THANK YOU ALL FOR WAITING!!
  - NOW RELEASE v.0.4(beta)!! Brand new start of the project!! Stable edition is on the way.
