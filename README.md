@@ -16,8 +16,8 @@ A project which can make up total random code using different rules. And you can
 
 News:
  - NOW RELEASE V.0.5!! New version with new structure.
- - v.0.5 is nearly come to an end. I am test it and perfect it now. I think it can be release before the second week of December. I'm rushing the schedual!!
- - I'm Working on v.0.5 now. New vision is releasing slower than expected because of midterm. But I promise once I've done all the test, I will immediately start to code. THANK YOU ALL FOR WAITING!!
+ - v.0.5 is nearly come to an end. I am test it and perfect it now. I think it can be release before the second week of December. I'm rushing the schedule!!
+ - I'm Working on v.0.5 now. New vision is releasing slower than expected because of mid-term. But I promise once I've done all the test, I will immediately start to code. THANK YOU ALL FOR WAITING!!
  - NOW RELEASE v.0.4(beta)!! Brand new start of the project!! Stable edition is on the way.
  - After a few tought, I have vanished the idea of developing log model instead to develop a saving model, which will be more useful. And v.0.3.1 will be replaced by v.0.4. It is a big improvement and hope you will enjoy it.
  - Log model is developing right now, I assume it will be release not long. Prototype has been made and I'm working on its optimizition. Please not hush. I promise I will work hard and release v.0.3.1 soon.
