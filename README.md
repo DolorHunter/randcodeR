@@ -1,5 +1,5 @@
 # randcodeR（燃灯计划）
-A project which can make up total random code using different rules. And you can save them to a .dat file in case of forgetting your passwords.
+A project which can make up totally random codes by using many different rules. And you can save them to a .dat file in case of forgetting your passwords.
 
 - Project:	randcodeR（燃灯计划）
 - Language:	C/C++
