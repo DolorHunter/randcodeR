@@ -11,8 +11,8 @@ A project which can make up totally random codes by using many different rules. 
               - 2. Redefine some constant in software, which makes the entire software more stable.
               - 3. Some bugs are detected but it will do no harm to regular use. I am gonna fix it later.
               
-- Index of the project: https://github.com/DolorHunter/randcodeR
-- Donation:             https://www.paypal.me/dolorhunter
+## Index of the project: https://github.com/DolorHunter/randcodeR
+## Donation:             https://www.paypal.me/dolorhunter
 
 News:
  - NOW RELEASE V.0.5!! New version with new structure.
