@@ -1,4 +1,4 @@
-# randcodeR（燃灯计划）
+# randcodeR
 A project which can make up totally random codes/passwords by using so many different rules and safe them.
 本项目能实现生成随机密码并存储的功能.
 
@@ -59,6 +59,6 @@ ___[捐助地址](https://www.paypal.me/dolor059)___
 时间:    2018.10.3        23:41
 更新说明:    1.自动生成指定位数的英文小写+数字密码
 
-___[回到顶部](#randcodeR（燃灯计划）)___
+___[回到顶部](#randcodeR)___
 
 ![GitHub](http://5b0988e595225.cdn.sohucs.com/images/20180522/15e488b2232643b9ad7eb10fb4810b81.jpeg)
