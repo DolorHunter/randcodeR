@@ -1,9 +1,8 @@
 # randcodeR（燃灯计划）
-![GitHub](http://5b0988e595225.cdn.sohucs.com/images/20180522/15e488b2232643b9ad7eb10fb4810b81.jpeg)
 A project which can make up totally random codes/passwords by using so many different rules and safe them.
 本项目能实现生成随机密码并存储的功能.
 
-`[查看中文详情](#燃灯计划)`
+___[查看中文详情](#燃灯计划)___
 
 - Project:	randcodeR（燃灯计划）
 - Language:	C/C++
@@ -15,8 +14,8 @@ A project which can make up totally random codes/passwords by using so many diff
               - 2. Amended some constant, which will makes the entire software more stable.
               - 3. Some bugs have been detected but they will do no harm for normal using. I am gonna fix it in next version.
               
-`[Index of the project](https://github.com/DolorHunter/randcodeR)`
-`[Donation](https://www.paypal.me/dolor059)`
+____[Index of the project](https://github.com/DolorHunter/randcodeR)___
+___[Donation](https://www.paypal.me/dolor059)___
 
 News:
  - v.0.6 will come soon with brand new look!
@@ -28,8 +27,8 @@ News:
 - 名称:    燃灯计划
 - 语言:    C/C++
 - 作者:    ZhuXiong
-`[项目地址](https://github.com/DolorHunter/randcodeR)`
-`[捐助地址](https://www.paypal.me/dolor059)`
+___[项目地址](https://github.com/DolorHunter/randcodeR)___
+___[捐助地址](https://www.paypal.me/dolor059)___
 
 # 更新日志
 版本号:v.0.5
@@ -57,4 +56,5 @@ News:
 时间:    2018.10.3        23:41
 更新说明:    1.自动生成指定位数的英文小写+数字密码
 
-[回到顶部](#randcodeR（燃灯计划）)
+___[回到顶部](#randcodeR（燃灯计划）___
+![GitHub](http://5b0988e595225.cdn.sohucs.com/images/20180522/15e488b2232643b9ad7eb10fb4810b81.jpeg)
