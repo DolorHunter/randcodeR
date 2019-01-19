@@ -1,5 +1,5 @@
 # randcodeR（燃灯计划）
-[![github-logo]][github]
+![GitHub](http://5b0988e595225.cdn.sohucs.com/images/20180522/15e488b2232643b9ad7eb10fb4810b81.jpeg)
 A project which can make up totally random codes/passwords by using so many different rules and safe them.
 本项目能实现生成随机密码并存储的功能.
 
