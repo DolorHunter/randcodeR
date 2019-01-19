@@ -1,7 +1,9 @@
 # randcodeR（燃灯计划）
+[![github-logo]][github]
 A project which can make up totally random codes/passwords by using so many different rules and safe them.
 本项目能实现生成随机密码并存储的功能.
-* [查看中文](#燃灯计划)
+
+`[查看中文详情](#燃灯计划)`
 
 - Project:	randcodeR（燃灯计划）
 - Language:	C/C++
@@ -13,25 +15,23 @@ A project which can make up totally random codes/passwords by using so many diff
               - 2. Amended some constant, which will makes the entire software more stable.
               - 3. Some bugs have been detected but they will do no harm for normal using. I am gonna fix it in next version.
               
-* [Index of the project](https://github.com/DolorHunter/randcodeR)
-* [Donation](https://www.paypal.me/dolor059)
+`[Index of the project](https://github.com/DolorHunter/randcodeR)`
+`[Donation](https://www.paypal.me/dolor059)`
 
 News:
  - v.0.6 will come soon with brand new look!
  - NOW RELEASE V.0.5!! New version with new structure.
  - v.0.5 is nearly come to an end. I am test it and perfect it now. I think it can be release before the second week of December. I'm rushing the schedule!!
  - I'm Working on v.0.5 now. New vision is releasing slower than expected because of mid-term. But I promise once I've done all the test, I will immediately start to code. THANK YOU ALL FOR WAITING!!
-_______________________________________________________________________________________________________________
+ 
 # 燃灯计划
 - 名称:    燃灯计划
 - 语言:    C/C++
 - 作者:    ZhuXiong
-* [项目地址](https://github.com/DolorHunter/randcodeR)
-* [捐助地址](https://www.paypal.me/dolor059)
+`[项目地址](https://github.com/DolorHunter/randcodeR)`
+`[捐助地址](https://www.paypal.me/dolor059)`
 
-______________________________________________________________________________________________________________
 # 更新日志
-
 版本号:v.0.5
 时间: 2018.12.04	14:24
 更新说明:        1.重写了菜单结构, 让修改变得更加方便.
