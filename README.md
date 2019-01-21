@@ -1,7 +1,6 @@
 # randcodeR
 
-![][/randcodeR/randcodeR_logo.jpg]
-[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]
+![][https://github.com/DolorHunter/randcodeR/blob/master/randcodeR_logo.jpg]
 
 A project which can make up totally random codes/passwords by using so many different rules and safe them.
 本项目能实现生成随机密码并存储的功能.
