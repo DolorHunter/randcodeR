@@ -4,6 +4,9 @@
 A project which can make up totally random codes/passwords by using so many different rules and safe them.
 本项目能实现生成随机密码并存储的功能.
 
+Please Use The Latest Version!!
+请用最新版本.
+
 ___[查看中文详情](#燃灯计划)___
 
 - Project:	randcodeR（燃灯计划）
