@@ -18,27 +18,27 @@ void save_warehouse(FILE *, char [80]);
 
 int main(void)
 {
-    int bit;    //Î»Êı
+    int bit;    //ä½æ•°
     char code[10][80]={0};
     char code_chose[80]={0};
     char password[6]={0};
     FILE *fp;
 
-    creat_warehouse(fp);//ÃÜÂë¿â³õÊ¼»¯(·ÀÖ¹Ğ´ÈëÊ§°Ü)
+    creat_warehouse(fp);//å¯†ç åº“åˆå§‹åŒ–(é˜²æ­¢å†™å…¥å¤±è´¥)
 
-    indexpage:  //goto»Øµ½Ö÷½çÃæ
+    indexpage:  //gotoå›åˆ°ä¸»ç•Œé¢
 
-    cout << "===Ëæ»úÃÜÂëÉú³ÉÆ÷===\n" << endl;
+    cout << "===éšæœºå¯†ç ç”Ÿæˆå™¨===\n" << endl;
     cout << "\t\t\t\tBy:Zhuxiong\n" << endl;
-    cout << "-[×¢Òâ] µÚÒ»´ÎÊ¹ÓÃÇëÏÈÉèÖÃÃÜÂë¿âÃÜ³×!\t(0.ÃÜÂë¿â -> 1.ÉèÖÃÃÜÂë)\n" << endl;
-    cout << "Ñ¡ÔñÃÜÂëÉú³É¹æÔò:\n" << endl;
-    cout << "0.ÃÜÂë¿â\n" << endl;
-    cout << "1.´¿Êı×Ö\n" << endl;
-    cout << "2.Êı×Ö+Ó¢ÎÄĞ¡Ğ´\n" << endl;
-    cout << "3.Êı×Ö+Ó¢ÎÄ»ìÆ´\n" << endl;
-    cout << "4.×¨¼Ò\n" << endl;
-    cout << "5.Èö±ÒÖ§³Ö!\n" << endl;
-    cout << "ÇëÊäÈëĞòºÅ:" << endl;
+    cout << "-[æ³¨æ„] ç¬¬ä¸€æ¬¡ä½¿ç”¨è¯·å…ˆè®¾ç½®å¯†ç åº“å¯†åŒ™!\t(0.å¯†ç åº“ -> 1.è®¾ç½®å¯†ç )\n" << endl;
+    cout << "é€‰æ‹©å¯†ç ç”Ÿæˆè§„åˆ™:\n" << endl;
+    cout << "0.å¯†ç åº“\n" << endl;
+    cout << "1.çº¯æ•°å­—\n" << endl;
+    cout << "2.æ•°å­—+è‹±æ–‡å°å†™\n" << endl;
+    cout << "3.æ•°å­—+è‹±æ–‡æ··æ‹¼\n" << endl;
+    cout << "4.ä¸“å®¶\n" << endl;
+    cout << "5.æ’’å¸æ”¯æŒ!\n" << endl;
+    cout << "è¯·è¾“å…¥åºå·:" << endl;
 
     int rules;
     cin >> rules;
@@ -47,22 +47,22 @@ int main(void)
 
     if(rules < 0 || rules > 5)
     {
-        cout << "Ê¹ÓÃµÄ¹æÔò´íÎó!" << endl;
+        cout << "ä½¿ç”¨çš„è§„åˆ™é”™è¯¯!" << endl;
         return -1;
     }
     else
     {
 
-        if(!rules)  //0.ÃÜÂë¿â
+        if(!rules)  //0.å¯†ç åº“
         {
-            warehouse:  //»Øµ½ÃÜÂë¿â
+            warehouse:  //å›åˆ°å¯†ç åº“
 
-            cout << "-[×¢Òâ] µÚÒ»´ÎÊ¹ÓÃÇëÏÈÉèÖÃÃÜÂë¿âÃÜ³×!\t(0.ÃÜÂë¿â -> 1.ÉèÖÃÃÜÂë)\n" << endl;
-            cout << "0.¿ªÆôÃÜÂë¿â\n" << endl;
-            cout << "1.ÉèÖÃÃÜÂë\n" << endl;
-            cout << "2.Íü¼ÇÃÜÂë\n" << endl;
-            cout << "3.·µ»ØÖ÷½çÃæ\n" << endl;
-            cout << "ÇëÊäÈëĞòºÅ:" << endl;
+            cout << "-[æ³¨æ„] ç¬¬ä¸€æ¬¡ä½¿ç”¨è¯·å…ˆè®¾ç½®å¯†ç åº“å¯†åŒ™!\t(0.å¯†ç åº“ -> 1.è®¾ç½®å¯†ç )\n" << endl;
+            cout << "0.å¼€å¯å¯†ç åº“\n" << endl;
+            cout << "1.è®¾ç½®å¯†ç \n" << endl;
+            cout << "2.å¿˜è®°å¯†ç \n" << endl;
+            cout << "3.è¿”å›ä¸»ç•Œé¢\n" << endl;
+            cout << "è¯·è¾“å…¥åºå·:" << endl;
 
             int chose;
             cin>>chose;
@@ -71,18 +71,18 @@ int main(void)
 
             if(chose < 0 || chose > 3)
             {
-                cout << "Ê¹ÓÃµÄ¹æÔò´íÎó!" << endl;
+                cout << "ä½¿ç”¨çš„è§„åˆ™é”™è¯¯!" << endl;
                 exit(1);
             }
             else
             {
-                if(!chose)  //0.¿ªÆôÃÜÂë¿â
+                if(!chose)  //0.å¼€å¯å¯†ç åº“
                 {
                     open_warehouse(fp, password);
                     system("CLS");
                     goto warehouse;
                 }
-                else if(chose == 1) //1.ÉèÖÃÃÜÂë
+                else if(chose == 1) //1.è®¾ç½®å¯†ç 
                 {
                     set_password(fp, password);
 
@@ -90,15 +90,15 @@ int main(void)
 
                     goto warehouse;
                 }
-                else if(chose == 2) //2.Íü¼ÇÃÜÂë
+                else if(chose == 2) //2.å¿˜è®°å¯†ç 
                 {
-                    cout << "-[ÁªÏµ×÷Õß]:\n-Telegram:Zhuxiong\n-Mail:DolorHunter@gmail.com\n" << endl;
-                    cout << "0.Ç¿ÖÆ¸ÄÃÜ\t[ÌØ±ğ×¢Òâ]: ´Ë²Ù×÷»áÉ¾³ıËùÓĞ´¢´æÃÜÂëÇÒ²»¿É»Ö¸´!\n" <<endl;
-                    cout << "1.·µ»ØÉÏ¼¶\n" << endl;
+                    cout << "-[è”ç³»ä½œè€…]:\n-Mail:DolorHunter@gmail.com\n" << endl;
+                    cout << "0.å¼ºåˆ¶æ”¹å¯†\t[ç‰¹åˆ«æ³¨æ„]: æ­¤æ“ä½œä¼šåˆ é™¤æ‰€æœ‰å‚¨å­˜å¯†ç ä¸”ä¸å¯æ¢å¤!\n" <<endl;
+                    cout << "1.è¿”å›ä¸Šçº§\n" << endl;
 
                     int chose1;
                     cin>>chose1;
-                    if(!chose1) //0.Ç¿ÖÆ¸ÄÃÜ
+                    if(!chose1) //0.å¼ºåˆ¶æ”¹å¯†
                     {
                         system("CLS");
 
@@ -108,14 +108,14 @@ int main(void)
 
                         goto warehouse;
                     }
-                    else    //1.·µ»ØÉÏ¼¶
+                    else    //1.è¿”å›ä¸Šçº§
                     {
                         system("CLS");
 
                         goto warehouse;
                     }
                 }
-                else    //3.·µ»ØÖ÷½çÃæ
+                else    //3.è¿”å›ä¸»ç•Œé¢
                 {
                     system("CLS");
 
@@ -123,37 +123,37 @@ int main(void)
                 }
             }
         }
-        else if(rules != 5) //1~4Éú³ÉÃÜÂë
+        else if(rules != 5) //1~4ç”Ÿæˆå¯†ç 
         {
-            cout << "ÇëÊäÈëÃÜÂëÎ»Êı:" << endl;
+            cout << "è¯·è¾“å…¥å¯†ç ä½æ•°:" << endl;
             cin >> bit;
             cout << "\n" << endl;
 
             char judge;
 
-            do  //Ñ­»·Éú³ÉÃÜÂë
+            do  //å¾ªç¯ç”Ÿæˆå¯†ç 
             {
                 if(rules==1)
                 {
-                    rand_num_type(bit, code);  //´¿Êı×Ö
+                    rand_num_type(bit, code);  //çº¯æ•°å­—
                 }
                 else if(rules==2)
                 {
-                    rand_en_num_type(bit, code);   //Ó¢ÎÄ+Êı×Ö
+                    rand_en_num_type(bit, code);   //è‹±æ–‡+æ•°å­—
                 }
                 else if(rules==3)
                 {
-                    rand_en_num_pro_type(bit, code);   //Ó¢ÎÄ´óĞ¡Ğ´+Êı×Ö
+                    rand_en_num_pro_type(bit, code);   //è‹±æ–‡å¤§å°å†™+æ•°å­—
                 }
                 else
                 {
-                    rand_expert( bit, code);    //asciiËæ»ú
+                    rand_expert( bit, code);    //asciiéšæœº
                 }
 
-                cout <<  "ÇëÊäÈëÑ¡Ôñ±¾ÂÖÃÜÂëµÄĞòºÅ, Èô²»Ñ¡ÔñÇëÊäÈëÆäËû×Ö·û." << endl;
+                cout <<  "è¯·è¾“å…¥é€‰æ‹©æœ¬è½®å¯†ç çš„åºå·, è‹¥ä¸é€‰æ‹©è¯·è¾“å…¥å…¶ä»–å­—ç¬¦." << endl;
                 cin >> judge;
 
-                if(judge >='0' && judge <='9')  //Ñ¡ÖĞÉú³ÉÃÜÂë
+                if(judge >='0' && judge <='9')  //é€‰ä¸­ç”Ÿæˆå¯†ç 
                 {
                     for(int i=0;i<bit;i++)
                     {
@@ -163,7 +163,7 @@ int main(void)
 
                     save_warehouse(fp, code_chose);
 
-                    judge = 0;  //ÖØÖÃÅĞ¶¨²ÎÊı
+                    judge = 0;  //é‡ç½®åˆ¤å®šå‚æ•°
                 }
                 else
                 {
@@ -178,13 +178,13 @@ int main(void)
             goto indexpage;
 
         }
-        else    //5.¾èÖú
+        else    //5.æåŠ©
         {
-            cout << "¸ĞĞ»ÄúµÄËùÓĞÈÏ¿ÉºÍ¾èÖú!\n" << endl;
-            cout << "-[ÁªÏµ×÷Õß]:\nTelegram:Zhuxiong\nMailBox:DolorHunter@gmail.com\n" << endl;
-            cout << "-[¾èÖúµØÖ·]: paypal.me/dolorhunter\n" << endl;
-            cout << "ÔÙ´Î¸ĞĞ»ÄúµÄÈÏ¿ÉºÍ¾èÖú!\n" << endl;
-            cout << "\n#ÊäÈë0·µ»ØÖ÷½çÃæ\n" << endl;
+            cout << "æ„Ÿè°¢æ‚¨çš„æ‰€æœ‰è®¤å¯å’ŒæåŠ©!\n" << endl;
+            cout << "-[è”ç³»ä½œè€…]:\nMailBox:DolorHunter@gmail.com\n" << endl;
+            cout << "-[æåŠ©åœ°å€]: paypal.me/dolor059\n" << endl;
+            cout << "å†æ¬¡æ„Ÿè°¢æ‚¨çš„è®¤å¯å’ŒæåŠ©!\n" << endl;
+            cout << "\n#è¾“å…¥0è¿”å›ä¸»ç•Œé¢\n" << endl;
 
             int temp;
             cin >> temp;
@@ -210,21 +210,21 @@ void creat_warehouse(FILE *fp)
     }
     else
     {
-        printf("CANNOT NEW\n");//Èİ´í´¦Àí
+        printf("CANNOT NEW\n");//å®¹é”™å¤„ç†
         exit(1);
     }
 
     fclose(fp);
 }
 
-void open_warehouse(FILE *fp, char *password)//¶ÁÈ¡ÎÄ¼şÊ×ĞĞ ±È¶ÔÃÜÂëÊÇ·ñÏàÍ¬
+void open_warehouse(FILE *fp, char *password)//è¯»å–æ–‡ä»¶é¦–è¡Œ æ¯”å¯¹å¯†ç æ˜¯å¦ç›¸åŒ
 {
     char buff[4096];
     char inp_code[6];
     char tbuff[6];
     if(fp = fopen("CodeX.dat", "rb"))
     {
-        cout << "ÇëÊäÈëÃÜÂë¿âÃÜÂë:" << endl;
+        cout << "è¯·è¾“å…¥å¯†ç åº“å¯†ç :" << endl;
         cin >> inp_code;
         fread(tbuff, 6*sizeof(char), 1, fp);
 
@@ -238,13 +238,13 @@ void open_warehouse(FILE *fp, char *password)//¶ÁÈ¡ÎÄ¼şÊ×ĞĞ ±È¶ÔÃÜÂëÊÇ·ñÏàÍ¬
             }
             if(correct)
             {
-                printf("ÃÜÂëÕıÈ·£¡\n");
+                printf("å¯†ç æ­£ç¡®ï¼\n");
 
                 fseek(fp,6,SEEK_SET);
                 fread(buff, 4096*sizeof(char), 1, fp);
 
                 cout << buff << endl;
-                cout << "ÊäÈë»Ø³µ·µ»ØÉÏÒ»¼¶"<< endl;
+                cout << "è¾“å…¥å›è½¦è¿”å›ä¸Šä¸€çº§"<< endl;
 
                 getchar();
                 getchar();
@@ -252,14 +252,14 @@ void open_warehouse(FILE *fp, char *password)//¶ÁÈ¡ÎÄ¼şÊ×ĞĞ ±È¶ÔÃÜÂëÊÇ·ñÏàÍ¬
             }
             else
             {
-                cout << "ÃÜÂë´íÎó!ÇëÖØĞÂÊäÈë:" << endl;
+                cout << "å¯†ç é”™è¯¯!è¯·é‡æ–°è¾“å…¥:" << endl;
                 cin >> inp_code;
             }
         }
     }
     else
     {
-        printf("CANNOT OPEN\n");//Èİ´í´¦Àí
+        printf("CANNOT OPEN\n");//å®¹é”™å¤„ç†
         exit(1);
     }
 
@@ -268,8 +268,8 @@ void open_warehouse(FILE *fp, char *password)//¶ÁÈ¡ÎÄ¼şÊ×ĞĞ ±È¶ÔÃÜÂëÊÇ·ñÏàÍ¬
 
 void set_password(FILE *fp, char *password)
 {
-    cout << "-[¾¯¸æ] ´ò¿ªÃÜÂë¿âµÄÃÜÂëÇëÎğÒÅÊ§, ÈôÒÅÊ§½«ÎŞ·¨¿ªÆô¼ÓÃÜ¿â!\n" << endl;
-    cout << "ÊäÈë6Î»Êı×ÖÃÜÂë×÷Îª´ò¿ª¼ÓÃÜ¿âµÄÔ¿³×:" << endl;
+    cout << "-[è­¦å‘Š] æ‰“å¼€å¯†ç åº“çš„å¯†ç è¯·å‹¿é—å¤±, è‹¥é—å¤±å°†æ— æ³•å¼€å¯åŠ å¯†åº“!\n" << endl;
+    cout << "è¾“å…¥6ä½æ•°å­—å¯†ç ä½œä¸ºæ‰“å¼€åŠ å¯†åº“çš„é’¥åŒ™:" << endl;
     cin>>password;
 
     if(fp = fopen("CodeX.dat", "wb"))
@@ -278,7 +278,7 @@ void set_password(FILE *fp, char *password)
     }
     else
     {
-        printf("CANNOT OPEN\n");//Èİ´í´¦Àí
+        printf("CANNOT OPEN\n");//å®¹é”™å¤„ç†
         exit(1);
     }
 
@@ -287,13 +287,13 @@ void set_password(FILE *fp, char *password)
 
 void save_warehouse(FILE *fp, char *code_chose)
 {
-    cout <<"-ÕıÔÚ½«ÃÜÂë´æÈëÃÜÂë¿â.." << endl;
+    cout <<"-æ­£åœ¨å°†å¯†ç å­˜å…¥å¯†ç åº“.." << endl;
 
     if(fp = fopen("CodeX.dat", "ab"))
     {
-        fprintf(fp, "ÍøÕ¾, ÃÜÂë\n");
+        fprintf(fp, "ç½‘ç«™, å¯†ç \n");
 
-        cout << "ÊäÈëÍøÕ¾µØÖ·ÒÔ±¸×¢:" << endl;
+        cout << "è¾“å…¥ç½‘ç«™åœ°å€ä»¥å¤‡æ³¨:" << endl;
         char webInf[80]={0};
         cin >> webInf;
 
@@ -301,7 +301,7 @@ void save_warehouse(FILE *fp, char *code_chose)
     }
     else
     {
-        printf("CANNOT OPEN\n");//Èİ´í´¦Àí
+        printf("CANNOT OPEN\n");//å®¹é”™å¤„ç†
         exit(1);
     }
 
