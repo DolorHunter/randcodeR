@@ -11,24 +11,24 @@ void donation(FILE *fp, char *password);
 void creatPassword(FILE *fp, char *password);
 void forgetCode(FILE *fp, char *password);
 
-//ÃÜÂë¿â(Ö÷½çÃæ->ÃÜÂë¿â)
+//å¯†ç åº“(ä¸»ç•Œé¢->å¯†ç åº“)
 void library(FILE *fp, char *password){
     bool sign=true;
     do{
         system("CLS");
-        cout << "******************** Ëæ»úÃÜÂëÉú³ÉÆ÷  v.0.5 ***************" << endl;
-        cout << "*                                      Power by: Zhuxiong*" << endl;
-        cout << "*µ±Ç°Î»ÖÃ:Ö÷½çÃæ->ÃÜÂë¿â                                 *" << endl;
+        cout << "******************** éšæœºå¯†ç ç”Ÿæˆå™¨  v.0.5 ***************" << endl;
+        cout << "*                                  Power by: DolorHunter*" << endl;
+        cout << "*å½“å‰ä½ç½®:ä¸»ç•Œé¢->å¯†ç åº“                                 *" << endl;
         cout << "*- - - - - - - - - - - - - - - - - - - - - - - - - - - - *" << endl;
-        cout << "* -[×¢Òâ] µÚÒ»´ÎÊ¹ÓÃÇëÏÈÉèÖÃÃÜÂë¿âÃÜ³×!                  *" << endl;
-        cout << "* -[×¢Òâ] ÖØ¸´ÉèÖÃÃÜÂë»áµ¼ÖÂÃÜÂë¿âÖØĞ´,¿âÄÚÃÜÂë»á±»É¾³ı, *" << endl;
-        cout << "          ÈôÄúÒÑ¾­ÉèÖÃÃÜÂë,Çë²»ÒªÖØ¸´ÉèÖÃ!!              *" << endl;
-        cout << "*1. ¿ªÆô¿â                                               *" << endl;
-        cout << "*2. ÉèÖÃ¿âÃÜÂë                                           *" << endl;
-        cout << "*3. Íü¼ÇÃÜÂë                                             *" << endl;
-        cout << "*0. ·µ»ØÖ÷½çÃæ                                           *" << endl;
+        cout << "* -[æ³¨æ„] ç¬¬ä¸€æ¬¡ä½¿ç”¨è¯·å…ˆè®¾ç½®å¯†ç åº“å¯†åŒ™!                  *" << endl;
+        cout << "* -[æ³¨æ„] é‡å¤è®¾ç½®å¯†ç ä¼šå¯¼è‡´å¯†ç åº“é‡å†™,åº“å†…å¯†ç ä¼šè¢«åˆ é™¤, *" << endl;
+        cout << "          è‹¥æ‚¨å·²ç»è®¾ç½®å¯†ç ,è¯·ä¸è¦é‡å¤è®¾ç½®!!              *" << endl;
+        cout << "*1. å¼€å¯åº“                                               *" << endl;
+        cout << "*2. è®¾ç½®åº“å¯†ç                                            *" << endl;
+        cout << "*3. å¿˜è®°å¯†ç                                              *" << endl;
+        cout << "*0. è¿”å›ä¸»ç•Œé¢                                           *" << endl;
         cout << "**********************************************************" << endl;
-        cout << "ÇëÊäÈëĞòºÅ:" ;
+        cout << "è¯·è¾“å…¥åºå·:" ;
 
         int iChose;
         cin >> iChose;
@@ -36,7 +36,7 @@ void library(FILE *fp, char *password){
 
         switch(iChose){
             case 0:
-                sign=false; break;///·µ»ØÉÏÒ»¼¶
+                sign=false; break;///è¿”å›ä¸Šä¸€çº§
             case 1:
                 openLib(fp, password); break;
             case 2:
@@ -50,24 +50,24 @@ void library(FILE *fp, char *password){
     }while(sign);
 }
 
-//Íü¼ÇÃÜÂë(Ö÷½çÃæ->ÃÜÂë¿â->Íü¼ÇÃÜÂë)
+//å¿˜è®°å¯†ç (ä¸»ç•Œé¢->å¯†ç åº“->å¿˜è®°å¯†ç )
 void forgetCode(FILE *fp, char *password){
     bool sign=true;
     do{
         system("CLS");
-        cout << "******************** Ëæ»úÃÜÂëÉú³ÉÆ÷  v.0.5 ***************" << endl;
-        cout << "*                                      Power by: Zhuxiong*" << endl;
-        cout << "*µ±Ç°Î»ÖÃ:Ö÷½çÃæ->ÃÜÂë¿â->Íü¼ÇÃÜÂë                       *" << endl;
+        cout << "******************** éšæœºå¯†ç ç”Ÿæˆå™¨  v.0.5 ***************" << endl;
+        cout << "*                                  Power by: DolorHunter*" << endl;
+        cout << "*å½“å‰ä½ç½®:ä¸»ç•Œé¢->å¯†ç åº“->å¿˜è®°å¯†ç                        *" << endl;
         cout << "*- - - - - - - - - - - - - - - - - - - - - - - - - - - - *" << endl;
-        cout << "[×¢Òâ]:Ç¿ÖÆ¸ÄÃÜ»áÇå³ıÃÜÂë¿âÎÄ¼şÒÔÍê³ÉÖØÖÃ!!              *" << endl;
-        cout << "*0. Ç¿ÖÆ¸ÄÃÜ.                                            *" << endl;
+        cout << "[æ³¨æ„]:å¼ºåˆ¶æ”¹å¯†ä¼šæ¸…é™¤å¯†ç åº“æ–‡ä»¶ä»¥å®Œæˆé‡ç½®!!              *" << endl;
+        cout << "*0. å¼ºåˆ¶æ”¹å¯†.                                            *" << endl;
         cout << "*                                                        *" << endl;
-        cout << "*»òÕß. Äú»¹¿ÉÒÔ³¢ÊÔÁªÏµ×÷ÕßÒÔ»ñµÃ¼¼ÊõÖ§³Ö.               *" << endl;
-        cout << "*[ÁªÏµ×÷Õß]: DolorHunter@gmail.com                       *" << endl;
-        cout << "*ÎÒ½«»á¾¡¿ì»Ø¸´ÓÊ¼ş!                                     *" << endl;
+        cout << "*æˆ–è€…. æ‚¨è¿˜å¯ä»¥å°è¯•è”ç³»ä½œè€…ä»¥è·å¾—æŠ€æœ¯æ”¯æŒ.               *" << endl;
+        cout << "*[è”ç³»ä½œè€…]: DolorHunter@gmail.com                       *" << endl;
+        cout << "*æˆ‘å°†ä¼šå°½å¿«å›å¤é‚®ä»¶!                                     *" << endl;
         cout << "**********************************************************" << endl;
         cout << endl;
-        cout << "ÊäÈëÆäËûÊı×Ö·µ»ØÉÏÒ»¼¶." << endl;
+        cout << "è¾“å…¥å…¶ä»–æ•°å­—è¿”å›ä¸Šä¸€çº§." << endl;
 
         char iChose;
         cin >> iChose;
@@ -77,29 +77,29 @@ void forgetCode(FILE *fp, char *password){
             case 0:
                 setLibPassword(fp, password); break;
             default:
-                sign=false; break;///·µ»ØÉÏÒ»¼¶
+                sign=false; break;///è¿”å›ä¸Šä¸€çº§
         }
     }while(sign);
 }
 
 
-//Éú³ÉÃÜÂë(Ö÷½çÃæ->Éú³ÉÃÜÂë)
+//ç”Ÿæˆå¯†ç (ä¸»ç•Œé¢->ç”Ÿæˆå¯†ç )
 void creatPassword(FILE *fp, char *password){
     bool sign=true;
     do{
         system("CLS");
-        cout << "******************** Ëæ»úÃÜÂëÉú³ÉÆ÷  v.0.5 ***************" << endl;
-        cout << "*                                      Power by: Zhuxiong*" << endl;
-        cout << "*µ±Ç°Î»ÖÃ:Ö÷½çÃæ->Éú³ÉÃÜÂë                               *" << endl;
+        cout << "******************** éšæœºå¯†ç ç”Ÿæˆå™¨  v.0.5 ***************" << endl;
+        cout << "*                                  Power by: DolorHunter*" << endl;
+        cout << "*å½“å‰ä½ç½®:ä¸»ç•Œé¢->ç”Ÿæˆå¯†ç                                *" << endl;
         cout << "*- - - - - - - - - - - - - - - - - - - - - - - - - - - - *" << endl;
-        cout << "* -[×¢Òâ] µÚÒ»´ÎÊ¹ÓÃÇëÏÈÉèÖÃÃÜÂë¿âÃÜ³×!                  *" << endl;
-        cout << "*1. ´¿Êı×Ö.                                              *" << endl;
-        cout << "*2. Êı×Ö &Ó¢ÎÄĞ¡Ğ´.                                      *" << endl;
-        cout << "*3. Êı×Ö &Ó¢ÎÄ»ìÆ´.                                      *" << endl;
-        cout << "*4. ×¨¼Ò.                                                *" << endl;
-        cout << "*0. ·µ»ØÖ÷½çÃæ                                           *" << endl;
+        cout << "* -[æ³¨æ„] ç¬¬ä¸€æ¬¡ä½¿ç”¨è¯·å…ˆè®¾ç½®å¯†ç åº“å¯†åŒ™!                  *" << endl;
+        cout << "*1. çº¯æ•°å­—.                                              *" << endl;
+        cout << "*2. æ•°å­— &è‹±æ–‡å°å†™.                                      *" << endl;
+        cout << "*3. æ•°å­— &è‹±æ–‡æ··æ‹¼.                                      *" << endl;
+        cout << "*4. ä¸“å®¶.                                                *" << endl;
+        cout << "*0. è¿”å›ä¸»ç•Œé¢                                           *" << endl;
         cout << "**********************************************************" << endl;
-        cout << "ÇëÑ¡ÔñÉú³ÉÃÜÂë¹æÔò:" ;
+        cout << "è¯·é€‰æ‹©ç”Ÿæˆå¯†ç è§„åˆ™:" ;
 
         int iChose;
         cin >> iChose;
@@ -113,42 +113,42 @@ void creatPassword(FILE *fp, char *password){
             case 4:
                 creatCode(fp, iChose); break;
             default:
-                sign=false; break;///·µ»ØÉÏÒ»¼¶
+                sign=false; break;///è¿”å›ä¸Šä¸€çº§
         }
     }while(sign);
 }
 
-//ÁªÏµ×÷Õß½çÃæ(Ö÷½çÃæ->ÁªÏµ×÷Õß)
+//è”ç³»ä½œè€…ç•Œé¢(ä¸»ç•Œé¢->è”ç³»ä½œè€…)
 void donation(FILE *fp, char *password){
     system("CLS");
-    cout << "******************** Ëæ»úÃÜÂëÉú³ÉÆ÷  v.0.5 ***************" << endl;
-    cout << "*                                      Power by: Zhuxiong*" << endl;
-    cout << "*µ±Ç°Î»ÖÃ:Ö÷½çÃæ->ÁªÏµ×÷Õß                               *" << endl;
+    cout << "******************** éšæœºå¯†ç ç”Ÿæˆå™¨  v.0.5 ***************" << endl;
+        cout << "*                                  Power by: DolorHunter*" << endl;
+    cout << "*å½“å‰ä½ç½®:ä¸»ç•Œé¢->è”ç³»ä½œè€…                               *" << endl;
     cout << "*- - - - - - - - - - - - - - - - - - - - - - - - - - - - *" << endl;
-    cout << "[ÁªÏµ×÷Õß]: DolorHunter@gmail.com                        *" << endl;
-    cout << "[¾èÖúµØÖ·]: paypal.me/dolorhunter                        *" << endl;
-    cout << "¸ĞĞ»ÄúµÄÈÏ¿ÉÓëÖ§³Ö!                                      *" << endl;
+    cout << "[è”ç³»ä½œè€…]: DolorHunter@gmail.com                        *" << endl;
+    cout << "[æåŠ©åœ°å€]: paypal.me/dolor059                          *" << endl;
+    cout << "æ„Ÿè°¢æ‚¨çš„è®¤å¯ä¸æ”¯æŒ!                                      *" << endl;
     cout << "**********************************************************" << endl;
     cout << endl;
-    cout << "ÊäÈëÈÎÒâÄÚÈİ·µ»ØÉÏÒ»¼¶." << endl;
+    cout << "è¾“å…¥ä»»æ„å†…å®¹è¿”å›ä¸Šä¸€çº§." << endl;
     getchar();
 }
 
-//Ö÷½çÃæ
+//ä¸»ç•Œé¢
 int index(FILE *fp, char *password){
     bool sign=true;
     do{
         system("CLS");
-        cout << "******************** Ëæ»úÃÜÂëÉú³ÉÆ÷  v.0.5 ***************" << endl;
-        cout << "*                                      Power by: Zhuxiong*" << endl;
-        cout << "*µ±Ç°Î»ÖÃ:Ö÷½çÃæ                                         *" << endl;
-        cout << "* -[×¢Òâ] µÚÒ»´ÎÊ¹ÓÃÇëÏÈÉèÖÃÃÜÂë¿âÃÜ³×!                  *" << endl;
-        cout << "*1. ÃÜÂë¿â.                  <-ÔÚÕâÀïÉèÖÃÃÜ³×            *" << endl;
-        cout << "*2. Éú³ÉÃÜÂë.                                            *" << endl;
-        cout << "*3. ÁªÏµ×÷Õß.                                            *" << endl;
-        cout << "*0. ÍË³ö.                                                *" << endl;
+        cout << "******************** éšæœºå¯†ç ç”Ÿæˆå™¨  v.0.5 ***************" << endl;
+        cout << "*                                  Power by: DolorHunter*" << endl;
+        cout << "*å½“å‰ä½ç½®:ä¸»ç•Œé¢                                         *" << endl;
+        cout << "* -[æ³¨æ„] ç¬¬ä¸€æ¬¡ä½¿ç”¨è¯·å…ˆè®¾ç½®å¯†ç åº“å¯†åŒ™!                  *" << endl;
+        cout << "*1. å¯†ç åº“.                  <-åœ¨è¿™é‡Œè®¾ç½®å¯†åŒ™            *" << endl;
+        cout << "*2. ç”Ÿæˆå¯†ç .                                            *" << endl;
+        cout << "*3. è”ç³»ä½œè€….                                            *" << endl;
+        cout << "*0. é€€å‡º.                                                *" << endl;
         cout << "**********************************************************" << endl;
-        cout << "*ÇëÊäÈëĞòºÅ:" ;
+        cout << "*è¯·è¾“å…¥åºå·:" ;
 
         int iChose;
         cin >> iChose;
@@ -164,10 +164,10 @@ int index(FILE *fp, char *password){
             case 3:
                 donation(fp, password); break;
             default:
-                sign=false; break;///·µ»ØÉÏÒ»¼¶
+                sign=false; break;///è¿”å›ä¸Šä¸€çº§
         }
     }while(sign);
 
-    cout << "\n½ø³ÌÖÕÖ¹." << endl;
+    cout << "\nè¿›ç¨‹ç»ˆæ­¢." << endl;
     return 0;
 }
