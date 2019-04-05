@@ -1,5 +1,8 @@
 # randcodeR     
-![](https://github.com/DolorHunter/randcodeR/blob/master/logo.jpg)
+![](logo.jpg)
+
+[![LICENSE](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-windows-lightgrey.svg)]()
 
 A project which can make up totally random codes/passwords by using so many different rules and safe them.
 本项目能实现生成随机密码并存储的功能.
