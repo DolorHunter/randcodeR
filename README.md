@@ -27,7 +27,7 @@ ___[Index of the project](https://github.com/DolorHunter/randcodeR)___
 ___[Donation](https://www.paypal.me/dolor059)___
 
 News:
- - v.0.6 will come soon with brand new look!
+ - PLANNING ON v.0.6 NOW! SORRY FOR DIDNOT UPDATE FOR SO LONG.
  - NOW RELEASE V.0.5!! New version with new structure.
  - v.0.5 is nearly come to an end. I am test it and perfect it now. I think it can be release before the second week of December. I'm rushing the schedule!!
  - I'm Working on v.0.5 now. New vision is releasing slower than expected because of mid-term. But I promise once I've done all the test, I will immediately start to code. THANK YOU ALL FOR WAITING!!
