@@ -1,7 +1,7 @@
 # randcodeR     
 ![](logo.jpg)
 
-[![LICENSE](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE)
+[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-windows-lightgrey.svg)]()
 
 A project which can make up totally random codes/passwords by using so many different rules and safe them.
